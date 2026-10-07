@@ -1,0 +1,26 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+.pumbleapprc
+.pumblerc
+tokens.json
+
+# Local data
+*.db
+*.db-journal
+sop.md
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+dist/
+build/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
